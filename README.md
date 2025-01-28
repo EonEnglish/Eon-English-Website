@@ -25,6 +25,12 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 <br />
 
+## Access our Figma Design
+You will have permission to view the document. If you would like to make direct changes, contact a team manager for `write` permissions.
+- [Figma Design](https://www.figma.com/design/7z1A3xmIezG9UKmUji0jw9/eonenglish-site-%7C-my-(Copy)?node-id=52-589&t=TRuQNfvSbsbnHIrU-1)
+
+<br>
+
 ## How to Contribute
 
 Contributions are what make this community such an amazing place to learn, inspire, and create!
