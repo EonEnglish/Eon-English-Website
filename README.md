@@ -1,6 +1,8 @@
 # Eon English Website
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+<br />
+
 ## Getting Started
 
 First, run the development server:
@@ -21,17 +23,38 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+<br />
 
-To learn more about Next.js, take a look at the following resources:
+## How to Contribute
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are what make this community such an amazing place to learn, inspire, and create!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Any contributions you make are **greatly appreciated**!
 
-## Deploy on Vercel
+<br />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 1. Pick a Task
+- Visit the **[Planning Tab](https://github.com/orgs/EonEnglish/projects/6)** on GitHub.  
+- Assign a task to yourself or [create one](https://github.com/EonEnglish/Eon-English-Website/issues/new?template=Blank+issue) and assign it to yourself.  
+- Once assigned, start working on your task.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<br />
+
+### 2. Submit a Pull Request
+- Once your task is completed, commit and push your changes to your branch.
+- Go to the repository and create a Pull Request (PR) with a detailed description of the changes.
+- Mention the issue or task you were working on (if applicable). Wait for the code review.
+- If changes are requested, make the updates and push them to the same branch.
+- Once approved, your PR will be merged into the main branch.
+ 
+<br />
+
+### 3. Team Meetings
+- We hold team meetings **biweekly on Sundays**.  
+- The meeting link can be found on [Discord](https://discord.gg/CAzC5bMqzg).  
+
+<br />
+
+Feel free to reach out on [Discord](https://discord.gg/CAzC5bMqzg) if you have any questions or need guidance. Happy contributing!
+
+
