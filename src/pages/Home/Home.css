@@ -1,0 +1,28 @@
+.home-container {
+  @apply w-full h-[1024px] bg-[#f8f4ec];
+}
+  
+.text-container {
+  @apply relative w-[620px] h-[333px] pt-[170px] pl-[60px];
+}
+  
+.title-text {
+  @apply text-center text-[60px] leading-[70px] tracking-[0.5px] font-normal font-neucha;
+}
+
+.subtitle-text {
+  @apply text-center font-[400] mt-[30px] text-[16px] leading-[27px] tracking-[0.5px] font-mulish ;
+}
+
+.sign-up-button {
+  @apply w-[400px] h-[60px] mt-[30px] ml-[60px] rounded-[21px] border border-[#352228] bg-[#352228] text-white font-[400] text-[16px] leading-[22.59px] tracking-[0.5px] text-center py-[18px] cursor-pointer;
+}
+  
+.skyline-image {
+  @apply absolute right-[10%] top-[80px] h-[620px] w-[450px] bg-[#EAE5DF];
+}
+
+.scrollDown-image {
+  @apply absolute left-1/2 top-[1050px] h-[32px] w-[32px] transform -translate-x-1/2;
+} 
+  
