@@ -1,28 +1,38 @@
 .home-container {
-  @apply w-full h-[1024px] bg-[#f8f4ec];
+  @apply w-full h-[1024px] bg-[#f8f4ec]; 
 }
-  
+
 .text-container {
-  @apply relative w-[620px] h-[333px] pt-[170px] pl-[60px];
+  @apply relative w-[50%] h-[40%] pl-[10%] pt-[5%]; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-  
+
 .title-text {
-  @apply text-center text-[60px] leading-[70px] tracking-[0.5px] font-normal font-neucha;
+  @apply text-center text-[3vw] leading-[4vw] tracking-[0.05vw] font-normal font-neucha;
 }
 
 .subtitle-text {
-  @apply text-center font-[400] mt-[30px] text-[16px] leading-[27px] tracking-[0.5px] font-mulish ;
+  @apply text-center font-[400] mt-[3%] text-[1.2vw] leading-[2vw] tracking-[0.05vw] font-mulish;
 }
 
 .sign-up-button {
-  @apply w-[400px] h-[60px] mt-[30px] ml-[60px] rounded-[21px] border border-[#352228] bg-[#352228] text-white font-[400] text-[16px] leading-[22.59px] tracking-[0.5px] text-center py-[18px] cursor-pointer;
+  @apply w-[70%]  mt-[3%] rounded-[10%] border border-[#352228] bg-[#352228] 
+  text-white font-[400] text-[1.5vw] leading-[2vw] tracking-[0.05vw] text-center py-[2%] cursor-pointer; 
 }
-  
+
 .skyline-image {
-  @apply absolute right-[10%] top-[80px] h-[620px] w-[450px] bg-[#EAE5DF];
+  @apply absolute right-[10%] top-[15vh] h-[85%] w-[30%] bg-[#EAE5DF]; 
 }
 
 .scrollDown-image {
-  @apply absolute left-1/2 top-[1050px] h-[32px] w-[32px] transform -translate-x-1/2;
-} 
-  
+  position: fixed;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2.5vw; 
+  height: auto;
+  cursor: pointer;
+}

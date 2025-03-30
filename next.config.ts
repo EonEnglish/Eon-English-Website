@@ -11,6 +11,12 @@ const nextConfig = {
         destination: '/home',
         permanent: true, 
       },
+      /* This is temporary until a better fix can be made */
+      {
+        source: '/home',  
+        destination: '/Home/home',  
+        permanent: true,  
+      },
     ];
   },
 };

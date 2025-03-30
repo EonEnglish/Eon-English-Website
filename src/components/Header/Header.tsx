@@ -9,7 +9,7 @@ const Header = () => {
         <div className="logo-container">
           
         <Image
-          src="images/eonEnglishIcon.svg"
+          src="/images/eonEnglishIcon.svg"
             alt="Logo"
             width={140} 
             height={140} 
