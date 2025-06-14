@@ -15,11 +15,11 @@
 }
 
 .button-container {
-  @apply ml-auto mr-[5%] flex justify-end;
+  @apply ml-auto mr-[5%] flex justify-end h-[10vh] w-[35vh];
 }
 
 .teacher-button {
   @apply bg-transparent border border-gray-300 rounded-[21px] 
          px-5 py-2 mt-2 mb-2 mr-2 hover:bg-gray-400 text-white 
-         flex items-center justify-center;
+        flex items-center justify-center text-[clamp(1rem,1vw,1.5rem)];
 }
