@@ -1,0 +1,662 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F7F4EF;
+    height: 100%;
+}
+
+/* Navbar Styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #352228;
+  z-index: 1000;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.navContent {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navBrand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #F7F4EF;
+  font-family: Neucha, cursive;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #F7F4EF;
+  font-weight: 500;
+  font-family: Mulish, sans-serif;
+  transition: color 0.3s, transform 0.2s;
+  font-size: 1rem;
+}
+
+.navLink:hover {
+  color: #DCD5CF;
+  transform: translateY(-2px);
+}
+
+.navButton {
+  background: #F7F4EF;
+  color: #352228;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: Mulish, sans-serif;
+  transition: all 0.3s;
+  font-size: 1rem;
+}
+
+.navButton:hover {
+  background: #DCD5CF;
+  transform: scale(1.05);
+}
+
+.aboutUs {
+    background-color: #352228;
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
+}
+
+.mainAboutUsWrapper {
+    position:relative;
+    min-height: 100vh;
+}
+
+.mainAboutUs {
+    padding-bottom: 650px;
+}
+
+.topNav{
+    display:block;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+    height: 80px;
+    width: auto;
+    object-fit: cover;
+    padding-right:20px;
+    overflow:hidden;
+}
+
+.hr {
+    border: none;
+    height: 1px;
+    background-color:#F7F4EF;
+    margin:0;
+}
+
+.title {
+    font-family: Neucha;
+    font-size: 46px;
+    color:#fefefe;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.circle {   
+    border-radius: 65px;
+    width: 160px;
+    height:50px;
+    size: 18px;
+    text-align:center;
+    margin-left:auto;
+    margin-right: 100px;      
+    color: white;
+    background-color:#352228;
+    border: 1px solid #F7F4EF;
+    display:flex;
+    justify-content: center;     
+    align-items: center;
+    transform: translateY(-45px);    
+    font-family: Mulish;    
+}
+
+.boxes {
+    height: 400px;
+}
+
+.box1 {
+    width: 40%;
+    background-color:white;
+    border-radius: 20px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    padding:15px;
+    font-family: Mulish;
+    margin-left: 50px;
+    height: 40%;
+}
+
+.descriptionFirst {
+    font-size: clamp(15px, 0.75vw, 32px);
+}
+
+.descriptionThird {
+    font-size: clamp(10px, 1vw, 25px);
+}
+
+.number {
+    top: 40%;
+}
+
+.ourPath {
+    background-color: #F7F4EF;
+    height: auto;
+    margin-bottom: 40px; 
+    padding-bottom: 40px;
+    position: relative;
+    overflow: visible;
+}
+
+.ourTeam {
+    height: auto; 
+    margin-top: 40px; 
+    padding-top: 20px;
+    position: relative;
+    clear: both;
+}
+
+.titleOurPath {
+    font-family: Neucha;
+    font-size: 46px;
+    color:#352228;
+    margin-left: 100px;
+}
+
+.footer {
+    background-color: #DCD5CFB2;
+    height: 30px;
+}
+
+.ourPathBoxV1 {
+    width: 440px;
+    height: 121px;
+    border-radius: 20px;
+    background-color:#352228;
+    align-content:center;
+    margin-left: 5%;
+}
+
+.ourPathBoxV2 {
+    width: 440px;
+    height: 121px;
+    border-radius: 20px;
+    background-color:#352228;
+    align-content:center;
+    margin-left: 65%;
+}
+
+.ourPathBoxV2Special {
+    width: 440px;
+    height: 181px;
+    border-radius: 20px;
+    background-color:#352228;
+    align-content:center;
+    margin-left: 65%;
+    margin-bottom: 20px !important; 
+    position: relative;
+    z-index: 5;
+}
+
+.year, .description{
+    font-family: Neucha;
+    color: #F7F4EF;
+    margin-left: 25px;
+    font-size: 1em;
+}
+
+.vl { border-left: 6px solid #352228; height: 80px; margin-left: 617px; margin-bottom: 215px;}
+
+.imgBg {
+    background-image: url('/Vector.png');
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+}
+
+.ourPathBox {
+  width: 440px;           
+  height: 121px;
+  background-color: #352228;
+  border-radius: 20px;
+  margin-top: 10px;       
+  text-align: center;
+  color: #F7F4EF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timelineWrapper {
+  width: 100%;
+}
+
+.elem {
+  width: 25%;
+}
+
+.nameHolder {
+  width: 280px;
+  height: 55px;
+  background-color: #352228;
+  border-radius: 5%;
+  align-content: center;
+}
+
+.ourTeam {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.titleOurPath {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.elems {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+
+.elem:first-child {
+  margin-left: 0 !important;
+}
+
+.elem:last-child {
+  padding-right: 0 !important;
+}
+
+.elem {
+  padding: 20px;
+}
+
+@media (min-width: 769px) {
+  .timelineWrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    top: 100px; 
+    bottom: 200px; 
+  }
+  
+  .verticalLine {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #352228;
+    transform: translateX(-50%);
+    z-index: 1;
+    height: 100%; 
+  }
+
+  .timelineContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 30px;
+    position: relative;
+    z-index: 2;
+    padding: 20px 0;
+    width: auto;
+    margin: 0 auto;
+    height: 100%; 
+  }
+
+  .timelineItem {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timelineItem img {
+    background: #F7F4EF;
+    border-radius: 50%;
+    padding: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: start;
+  padding-left: 20px;
+}
+
+.member {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  /* Navbar Mobile Styles */
+  .navLinks {
+    display: none;
+  }
+
+  .navButton {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  .navBrand {
+    font-size: 1.2rem;
+  }
+
+  .navbar {
+    padding: 0.75rem 1rem;
+  }
+
+  .box1 {
+    width: 74%;
+    height: 40%;
+    margin-left:7%;
+    z-index:10;
+    position:relative;
+  }
+
+  .descriptionFirst {
+    font-size:0.75em;
+  }
+
+  .descriptionThird {
+    font-size: 0.5em;
+  }
+
+  .topNav {
+    width:100%;
+  }
+
+  .circle {
+    margin-right:10%;
+  }
+
+  .my-lid {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    top: 15%;                     
+    z-index: 0;
+  }
+
+  .parentLayer {
+      display:flex;
+      justify-content:flex-end
+  }
+    
+  .ourTeam {
+      margin-top: 40px; 
+      padding-top: 30px; 
+  }
+    
+  .titleOurPath {
+      font-size: 1.8rem;
+      margin-bottom: 30px;
+      margin-left: 20px;
+  }
+    
+  .elems {
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+  }
+    
+  .elem {
+      max-width: 250px;
+      width: 100%;
+  }
+    
+  .elem img {
+      width: 150px !important;
+      height: 150px !important;
+  }
+    
+  .nameHolder h2 {
+      font-size: 1rem;
+      line-height: 1.3;
+  }
+
+  .timelineWrapper {
+    position: absolute;
+    left: 20px;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 10;
+    top: 80px; 
+    bottom: 150px; 
+  }
+  
+  .verticalLine {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: #352228;
+    z-index: 1;
+    height: 100%;
+  }
+
+  .timelineContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between; 
+    gap: 25px;
+    position: relative;
+    z-index: 2;
+    margin-left: -5px;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: visible;
+    height: 100%; 
+  }
+
+  .timelineItem img {
+    width: 40px !important;
+    height: 40px !important;
+    background: #F7F4EF;
+    border-radius: 50%;
+    padding: 6px;
+  }
+
+  .teamGrid {
+    grid-template-columns: 1fr;
+    padding-left: 0;
+    gap: 15px;
+    justify-items: center;
+  }
+
+  .ourPath {
+    padding-left: 80px; 
+    margin-bottom: 40px; 
+    padding-bottom: 30px; 
+    padding-right: 20px; 
+  }
+
+  .ourPathBoxV1,
+  .ourPathBoxV2,
+  .ourPathBoxV2Special {
+    width: 90%; 
+    max-width: 400px; 
+    margin: 20px auto;
+    margin-left: 20px; 
+  }
+
+  .ourPathBoxV2,
+  .ourPathBoxV2Special {
+    margin-left: auto;
+    margin-right: 20px; 
+  }
+}
+
+@media (max-width: 480px) {
+    /* Navbar Extra Small Mobile */
+    .navLogo {
+      gap: 0.5rem;
+    }
+
+    .navBrand {
+      font-size: 1rem;
+    }
+
+    .navButton {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.75rem;
+    }
+
+    .descriptionFirst {
+        font-size:0.75em;
+    }
+
+    .descriptionThird {
+        font-size:0.6em;
+    }
+
+    .my-class {
+      height: 20%;
+      width: 20%;
+      display:flex;
+    }
+
+   .ourPath {
+    margin-bottom: 40px !important;
+    padding-bottom: 20px !important;
+    padding-left: 60px !important; 
+    padding-right: 15px !important; 
+    overflow: hidden;
+  }
+
+  .ourPathBoxV1,
+  .ourPathBoxV2,
+  .ourPathBoxV2Special {
+    width: 85% !important; 
+    max-width: 300px !important; 
+    margin: 15px auto !important;
+  }
+
+  .ourPathBoxV1 {
+    margin-left: 15px !important; 
+  }
+
+  .ourPathBoxV2,
+  .ourPathBoxV2Special {
+    margin-left: auto !important; 
+    margin-right: 15px !important; 
+  }
+
+  .titleOurPath {
+    margin-left: 20px !important; 
+  }
+  
+  .ourTeam {
+    margin-top: 40px !important;
+    padding-top: 20px !important;
+    clear: both;
+  }
+  
+  .ourPath::after,
+  .ourTeam::before {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+  }
+
+  .ourPathBoxV2Special {
+    margin-bottom: 60px !important; 
+  }
+
+  .timelineWrapper {
+    position: absolute;
+    left: 10px;
+    width: auto;
+    z-index: 10;
+    top: 60px; 
+    bottom: 120px; 
+  }
+  
+  .verticalLine {
+    left: 10px;
+    width: 2px;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #352228;
+    z-index: 1;
+  }
+
+  .timelineContainer {
+    gap: 20px;
+    margin-left: 0px;
+    width: auto !important;
+    max-width: none !important;
+    overflow-x: visible;
+    overflow-y: visible;
+    margin: 0;
+    padding-left: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+
+  .timelineItem {
+    margin: 0;
+    margin-left: 0px;
+  }
+
+  .timelineItem img {
+    width: 32px !important;
+    height: 32px !important;
+    padding: 4px;
+  }
+}
